@@ -14,7 +14,7 @@ def oximetria(idade_paciente):
     print("...")
     time.sleep(2)
 
-    oxigenio = random.randint(93,100)
+    oxigenio = random.randint(92,100)
 
     if oxigenio < 95:
         print(f"Seus níveis de oxigênio estão muito baixos! {oxigenio}%")
@@ -60,4 +60,11 @@ def pesagem(idade_paciente):
 
     print(f"\nMedição e pesagem finalizados.\nAltura: {altura}\nPeso: {peso}")
 
-    return {"altura" : altura, "peso" : peso}
+    return {"altura" : altura, "peso": peso}
+
+
+def prontuario(problemas):
+    pass
+
+
+
