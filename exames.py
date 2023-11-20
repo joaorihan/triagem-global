@@ -20,7 +20,7 @@ def oximetria(idade_paciente):
         print(f"Seus níveis de oxigênio estão muito baixos! {oxigenio}%")
         if idade_paciente < 60:
             alerta = False
-            print("É recomendado prosseguir com ...")
+            print("Recomendação: Aletra nos níveis de Oxigênio")
         if idade_paciente >= 60:
             alerta = True
             print("Cuidado! Prossiga para o tratamentos")
@@ -61,10 +61,3 @@ def pesagem(idade_paciente):
     print(f"\nMedição e pesagem finalizados.\nAltura: {altura}\nPeso: {peso}")
 
     return {"altura" : altura, "peso": peso}
-
-
-def prontuario(problemas):
-    pass
-
-
-

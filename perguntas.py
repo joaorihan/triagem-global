@@ -5,7 +5,6 @@ def dores():
     resposta = input("(S/N) ").upper()
 
     if resposta == "S" or resposta == "SIM":
-        print("Em qual parte do corpo você sente a dor? (lista de partes)")
         escala = int(input("Em uma escala de 1 a 5, o quão intensa é a sua dor? "))
         dor = True
     else: 
@@ -44,7 +43,7 @@ def diabetes():
 
 def fuma():
     print("\nVocê é um fumante ativo?")
-    resposta = input("(S/N) ")
+    resposta = input("(S/N) ").upper()
     
     if resposta in ["S", "SIM"]:
         quantos = int(input("Você costuma fumar, em média, quandos cigarros por dia? "))
@@ -60,7 +59,7 @@ def fuma():
 
 def alcool():
     print("\nVocê costuma ingerir bebidas alcoólicas com frequência? ")
-    resposta = input("(S/N) ")
+    resposta = input("(S/N) ").upper()
     
     if resposta in ["S", "SIM"]:
         quantos = int(input("Você costuma beber, em média, quantas vezes na semana? "))
