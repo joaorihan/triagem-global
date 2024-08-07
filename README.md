@@ -1,3 +1,7 @@
 # Simulador de Triagem Automática
+Feito para a Global Solution da FIAP 2023
 
-Só clonar e rodar o main.py
+
+Basta clonar e rodar o main.py
+
+## Este projeto não é mais mantido
